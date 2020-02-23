@@ -300,8 +300,8 @@ void main(){
 
 	buildheap();
 
-	printf("\n%c %d left %c %d\n",minHeap[2]->sym,minHeap[2]->freq,minHeap[5]->sym,minHeap[5]->freq);
-	printheap();
+	//printf("\n%c %d left %c %d\n",minHeap[2]->sym,minHeap[2]->freq,minHeap[5]->sym,minHeap[5]->freq);
+	//printheap();
 	huffmantree();
 	preorder(minHeap[0]);
 	printtree(minHeap[0],0);
